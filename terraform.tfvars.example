@@ -1,0 +1,13 @@
+# Copy this file to terraform.tfvars and fill in your actual values
+# terraform.tfvars is ignored by git to protect sensitive data
+
+organization_id = "your-org-id-here"
+billing_account = "XXXXXX-XXXXXX-XXXXXX"
+
+daadmin_group_email = "analytics-admin@yourdomain.com"
+daeng_group_email   = "analytics-eng@yourdomain.com"
+dausers_group_email = "analytics-users@yourdomain.com"
+
+region = "us-east1"
+
+sandbox_raw_dataset_name = "raw_data"
